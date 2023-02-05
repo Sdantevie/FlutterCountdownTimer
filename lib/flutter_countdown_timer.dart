@@ -107,5 +107,5 @@ class _CountDownState extends State<CountdownTimer> {
     );
   }
 
-  String _padZero(int? number) => (number ?? 0).toString().padLeft(1, '0');
+  String _padZero(int? number) => (number ?? 0).toString().padLeft(2, '0');
 }
